@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdessamad Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #2c3e50;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #1abc9c;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .game-category {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .game-category h2 {
+            margin-bottom: 20px;
+            color: #3498db;
+        }
+
+        .game-category button {
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .game-category button:hover {
+            background-color: #1abc9c;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Abdessamad Games</h1>
+</header>
+
+<nav class="navbar">
+    <a href="#golf">Golf Games</a>
+    <a href="#racing">Racing Games</a>
+    <a href="#strategy">Strategy Games</a>
+    <a href="#arcade">Arcade Games</a>
+</nav>
+
+<div class="container">
+    <div class="game-category" id="golf">
+        <h2>Golf Games</h2>
+        <p>Play exciting golf games directly from your browser.</p>
+        <button onclick="alert('Launching Golf Game...')">Play Golf Game</button>
+    </div>
+
+    <div class="game-category" id="racing">
+        <h2>Racing Games</h2>
+        <p>Speed through the tracks with our thrilling racing games.</p>
+        <button onclick="alert('Launching Racing Game...')">Play Racing Game</button>
+    </div>
+
+    <div class="game-category" id="strategy">
+        <h2>Strategy Games</h2>
+        <p>Test your strategy skills in various challenging games.</p>
+        <button onclick="alert('Launching Strategy Game...')">Play Strategy Game</button>
+    </div>
+
+    <div class="game-category" id="arcade">
+        <h2>Arcade Games</h2>
+        <p>Enjoy classic and modern arcade games in your browser.</p>
+        <button onclick="alert('Launching Arcade Game...')">Play Arcade Game</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Abdessamad Games</p>
+</footer>
+
+</body>
+</html>
